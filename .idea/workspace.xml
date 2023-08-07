@@ -4,20 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7b96cd8-7ecd-4afc-8ffa-7c024438cae6" name="Changes" comment="">
+    <list default="true" id="d7b96cd8-7ecd-4afc-8ffa-7c024438cae6" name="Changes" comment="Env setup">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/get-billboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/get-categories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navbar-actions.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/billboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/get-category.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/get-colors.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/get-product.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/get-products.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/get-sizes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(routes)/category/[categoryId]/components/filter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(routes)/category/[categoryId]/components/mobile-filters.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(routes)/category/[categoryId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(routes)/product/[productId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/gallery/gallery-tab.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/gallery/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/info.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/product-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/currency.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/icon-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/no-results.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/product-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(routes)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(routes)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/zverina1337/WebstormProjects/ecommerce-store/actions",
+    "last_opened_file_path": "/home/zverina1337/WebstormProjects/ecommerce-store",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,7 +82,19 @@
       <updated>1691161924765</updated>
       <workItem from="1691161925796" duration="1302000" />
       <workItem from="1691163268401" duration="4197000" />
+      <workItem from="1691351016167" duration="2276000" />
+      <workItem from="1691433171617" duration="9292000" />
+      <workItem from="1691446028965" duration="4051000" />
     </task>
+    <task id="LOCAL-00001" summary="Env setup">
+      <option name="closed" value="true" />
+      <created>1691361194631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691361194631</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,5 +102,9 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Env setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Env setup" />
   </component>
 </project>
