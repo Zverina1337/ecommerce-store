@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7b96cd8-7ecd-4afc-8ffa-7c024438cae6" name="Changes" comment="Added render of categories, products and billboards.">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/preview-modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/use-cart.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/use-preview-modal.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/providers/modal-provider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/providers/toast-provider.tsx" afterDir="false" />
+    <list default="true" id="d7b96cd8-7ecd-4afc-8ffa-7c024438cae6" name="Changes" comment="Add modals and some functionality for card">
+      <change afterPath="$PROJECT_DIR$/app/(routes)/cart/components/cart-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(routes)/cart/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar-actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar-actions.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ui/product-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/product-card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/use-cart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/use-cart.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/zverina1337/WebstormProjects/ecommerce-store/hooks",
+    "last_opened_file_path": "/home/zverina1337/WebstormProjects/ecommerce-store",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,7 +68,8 @@
       <workItem from="1691433171617" duration="9292000" />
       <workItem from="1691446028965" duration="4292000" />
       <workItem from="1691547534782" duration="515000" />
-      <workItem from="1692714445602" duration="3526000" />
+      <workItem from="1692714445602" duration="4343000" />
+      <workItem from="1692807612016" duration="1232000" />
     </task>
     <task id="LOCAL-00001" summary="Env setup">
       <option name="closed" value="true" />
@@ -93,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691451350343</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add modals and some functionality for card">
+      <option name="closed" value="true" />
+      <created>1692724203703</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692724203703</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Env setup" />
     <MESSAGE value="Added render of categories, products and billboards." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added render of categories, products and billboards." />
+    <MESSAGE value="Add modals and some functionality for card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add modals and some functionality for card" />
   </component>
 </project>

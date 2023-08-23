@@ -19,7 +19,7 @@ const useCart = create(
             const existingItem = currentItems.find((item) => item.id === data.id)
 
             if (existingItem) {
-                return toast("Item alreadu in part")
+                return toast("Item already in part")
             }
 
             set({items: [...get().items, data ]});
