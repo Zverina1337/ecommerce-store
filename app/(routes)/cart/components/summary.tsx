@@ -32,7 +32,7 @@ const Summary = () => {
         const response = await requestManager(`${process.env.NEXT_PUBLIC_API_URL}/checkout`, "POST", {
             productIds: items.map((item) => item.id)
         })
-
+        // @ts-ignore
         window.location = response.url
     }
 
